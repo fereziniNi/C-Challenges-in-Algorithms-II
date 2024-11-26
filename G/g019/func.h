@@ -1,0 +1,1 @@
+int search(int* vet, int num, int x);
