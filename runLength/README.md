@@ -20,7 +20,7 @@ O programa deve ser executado em linha de comando, com os nomes dos arquivos de 
 ou
 
 ./runlength entrada.pgmc saida.pgm
-
+```
 ### Explicação dos Exemplos
 
 - **Exemplo 1:**  
