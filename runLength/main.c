@@ -53,7 +53,6 @@ void compactar(FILE *file, FILE *new) {
     while (fgets(linha, sizeof(linha), file) != NULL) {
         for (int i = 0; i < strlen(linha); i++) {
             if (linha[i] == ' ' || linha[i] == '\n') {
-                // Ignora espaços e quebras de linha sem usar `continue`
             } else {
                 char elem[3];
                 elem[0] = linha[i];
