@@ -115,6 +115,7 @@ void cabecalho(FILE* file, FILE* new){
 }
 
 int main(){
+    // Entrada!
     char entrada[20] = "exemplo1.pgm";
 
     FILE *file;
